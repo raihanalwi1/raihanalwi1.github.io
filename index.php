@@ -1,8 +1,4 @@
-<!--
------------------
-https://github.com/ardacarofficial/links-website is open source project.
------------------
--->
+
 <?php 
 $koneksi = mysqli_connect("localhost","root","","db_profile");
  
