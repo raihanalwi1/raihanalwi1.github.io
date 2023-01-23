@@ -1,13 +1,4 @@
 
-<?php 
-$koneksi = mysqli_connect("localhost","root","","db_profile");
- 
-// Check connection
-if (mysqli_connect_error()){
-	echo "Koneksi database gagal : " . mysqli_connect_error();
-}
- 
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,14 +22,8 @@ if (mysqli_connect_error()){
         <img src="img/logo.png" alt="Logo" />
       </div>
       <div class="header_text flex_column_center">
-        <?php 
-        $sql = mysqli_query($koneksi, "SELECT * FROM costumer WHERE id_cos=2");
-        while($d = mysqli_fetch_array($sql)){
-        ?>
-        <h1><?php echo $d['nama_lengkap']?></h1>
-        <h2><?php echo $d['nickname']?></h2>
-        
-       
+       <h1>Raihan Alwi Noer</h1>
+       <h2>Alwi</h2>
       
       </div>
     <!-- Logo, Title and Description Codes End -->  
