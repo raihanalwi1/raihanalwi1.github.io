@@ -1,0 +1,4 @@
+# raihanalwi1.github.io robots.txt
+
+User-agent: *
+Disallow: /
